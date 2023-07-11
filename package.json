@@ -1,6 +1,6 @@
 {
   "name": "@amadejusv/my-react-component-library",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "description": "first try on react component library",
   "scripts": {
     "rollup": "rollup -c",

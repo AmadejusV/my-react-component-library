@@ -1,11 +1,11 @@
-import React from 'react';
+import { FC } from 'react';
 import './Button.scss';
 
 interface Props {
     label: string;
 }
 
-const Button: React.FC<Props> = ({ label }) => {
+const Button: FC<Props> = ({ label }) => {
     return (
         <button>{label}</button>
     );

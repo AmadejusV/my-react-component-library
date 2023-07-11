@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, FC } from "react";
 import "./Card.scss";
 
 interface CardProps {
@@ -12,7 +12,7 @@ interface CardProps {
   circular?: boolean;
 }
 
-const Card: React.FC<CardProps> = ({
+const Card: FC<CardProps> = ({
   imgSrc,
   cardClassName,
   imgClassName,
